@@ -1,0 +1,14 @@
+/home/shish/school/object_oriented_programming/assignment_1_kb_mj_jr/bin/Debug/net10.0/assignment1
+/home/shish/school/object_oriented_programming/assignment_1_kb_mj_jr/bin/Debug/net10.0/assignment1.deps.json
+/home/shish/school/object_oriented_programming/assignment_1_kb_mj_jr/bin/Debug/net10.0/assignment1.runtimeconfig.json
+/home/shish/school/object_oriented_programming/assignment_1_kb_mj_jr/bin/Debug/net10.0/assignment1.dll
+/home/shish/school/object_oriented_programming/assignment_1_kb_mj_jr/bin/Debug/net10.0/assignment1.pdb
+/home/shish/school/object_oriented_programming/assignment_1_kb_mj_jr/obj/Debug/net10.0/assignment1.GeneratedMSBuildEditorConfig.editorconfig
+/home/shish/school/object_oriented_programming/assignment_1_kb_mj_jr/obj/Debug/net10.0/assignment1.AssemblyInfoInputs.cache
+/home/shish/school/object_oriented_programming/assignment_1_kb_mj_jr/obj/Debug/net10.0/assignment1.AssemblyInfo.cs
+/home/shish/school/object_oriented_programming/assignment_1_kb_mj_jr/obj/Debug/net10.0/assignment1.csproj.CoreCompileInputs.cache
+/home/shish/school/object_oriented_programming/assignment_1_kb_mj_jr/obj/Debug/net10.0/assignment1.dll
+/home/shish/school/object_oriented_programming/assignment_1_kb_mj_jr/obj/Debug/net10.0/refint/assignment1.dll
+/home/shish/school/object_oriented_programming/assignment_1_kb_mj_jr/obj/Debug/net10.0/assignment1.pdb
+/home/shish/school/object_oriented_programming/assignment_1_kb_mj_jr/obj/Debug/net10.0/assignment1.genruntimeconfig.cache
+/home/shish/school/object_oriented_programming/assignment_1_kb_mj_jr/obj/Debug/net10.0/ref/assignment1.dll
