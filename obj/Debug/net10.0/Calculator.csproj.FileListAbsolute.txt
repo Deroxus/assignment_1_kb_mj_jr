@@ -1,0 +1,15 @@
+/home/shish/school/object_oriented_programming/assignment_1_kb_mj_jr/obj/Debug/net10.0/Calculator.GeneratedMSBuildEditorConfig.editorconfig
+/home/shish/school/object_oriented_programming/assignment_1_kb_mj_jr/obj/Debug/net10.0/Calculator.AssemblyInfoInputs.cache
+/home/shish/school/object_oriented_programming/assignment_1_kb_mj_jr/obj/Debug/net10.0/Calculator.AssemblyInfo.cs
+/home/shish/school/object_oriented_programming/assignment_1_kb_mj_jr/obj/Debug/net10.0/Calculator.csproj.CoreCompileInputs.cache
+/home/shish/school/object_oriented_programming/assignment_1_kb_mj_jr/obj/Debug/net10.0/Calculator.sourcelink.json
+/home/shish/school/object_oriented_programming/assignment_1_kb_mj_jr/bin/Debug/net10.0/Calculator
+/home/shish/school/object_oriented_programming/assignment_1_kb_mj_jr/bin/Debug/net10.0/Calculator.deps.json
+/home/shish/school/object_oriented_programming/assignment_1_kb_mj_jr/bin/Debug/net10.0/Calculator.runtimeconfig.json
+/home/shish/school/object_oriented_programming/assignment_1_kb_mj_jr/bin/Debug/net10.0/Calculator.dll
+/home/shish/school/object_oriented_programming/assignment_1_kb_mj_jr/bin/Debug/net10.0/Calculator.pdb
+/home/shish/school/object_oriented_programming/assignment_1_kb_mj_jr/obj/Debug/net10.0/Calculator.dll
+/home/shish/school/object_oriented_programming/assignment_1_kb_mj_jr/obj/Debug/net10.0/refint/Calculator.dll
+/home/shish/school/object_oriented_programming/assignment_1_kb_mj_jr/obj/Debug/net10.0/Calculator.pdb
+/home/shish/school/object_oriented_programming/assignment_1_kb_mj_jr/obj/Debug/net10.0/Calculator.genruntimeconfig.cache
+/home/shish/school/object_oriented_programming/assignment_1_kb_mj_jr/obj/Debug/net10.0/ref/Calculator.dll

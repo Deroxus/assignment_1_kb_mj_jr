@@ -1,12 +1,10 @@
 using DivideByZeroException = Calculator.Exceptions.DivideByZeroException;
-namespace Calculator.Exceptions
+namespace Calculator.Exceptions;
+public class DivideByZeroException : Exception
 {
-    public class DivideByZeroException : Exception
+    public string ErrorDetails { get; }
+    public DivideByZeroException(string message, string details) : base(message)
     {
-        public string ErrorDetails { get; }
-        public DivideByZeroException(string message, string details) : base(message)
-        {
-            ErrorDetails = details;
-        }
+        ErrorDetails = details;
     }
 }

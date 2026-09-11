@@ -1,7 +1,7 @@
-namespace Calculator.Model
+namespace Calculator.Model;
+
+public abstract class Token
 {
-    public abstract class Token
-    {
-        public abstract override string ToString();
-    }
+    public abstract override string ToString();
+    public abstract double Evaluate(MyStack stack);
 }

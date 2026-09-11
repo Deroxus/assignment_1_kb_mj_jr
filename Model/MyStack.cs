@@ -1,27 +1,31 @@
-namespace Calculator.Model
+namespace Calculator.Model;
+
+public class MyStack
 {
-    public class MyStack
+    private int top = -1;
+    public int Count
     {
-        private int top;
-        // set top and count to zero
-        private Token[] internal_array;
+        get { return top + 1; }
+    }
 
-        public myStack()
-        {
-            top = -1;
-            internal_array = new Token[100];
-        }
-        public void Push(double d)
-        {
-            top += 1;
-            internal_array[Top] = d;
-        }
+    // set top and count to zero
+    private Token[] internal_array;
 
-        public Token Pop()
-        {
-            Token return_value = internal_array[Top];
-            top -= 1;
-            return return_value;
-        }
+    public MyStack()
+    {
+        top = -1;
+        internal_array = new Token[100];
+    }
+    public void Push(Token d)
+    {
+        top += 1;
+        internal_array[top] = d;
+    }
+
+    public Token Pop()
+    {
+        Token return_value = internal_array[top];
+        top -= 1;
+        return return_value;
     }
 }

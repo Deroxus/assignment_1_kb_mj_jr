@@ -6,5 +6,9 @@ namespace Calculator.Model
         {
             return leftOperand + rightOperand;
         }
+        public override string ToString()
+        {
+            return "+";
+        }
     }
 }
