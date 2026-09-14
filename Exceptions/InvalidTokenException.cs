@@ -3,7 +3,7 @@ public class InvalidTokenException : Exception
 {
     public string InvalidSymbol { get; }
 
-    public InvalidTokenException(string message, string symbol) : base(message)
+    public InvalidTokenException(string symbol) : base($"InvalidTokenException: {symbol}")
     {
         InvalidSymbol = symbol;
     }

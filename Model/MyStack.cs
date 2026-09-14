@@ -2,30 +2,25 @@ namespace Calculator.Model;
 
 public class MyStack
 {
-    private int top = -1;
+    private readonly Stack<Token> internalStack;
+
     public int Count
     {
-        get { return top + 1; }
+        get { return internalStack.Count; }
     }
-
-    // set top and count to zero
-    private Token[] internal_array;
 
     public MyStack()
     {
-        top = -1;
-        internal_array = new Token[100];
+        internalStack = new Stack<Token>();
     }
-    public void Push(Token d)
+
+    public void Push(Token token)
     {
-        top += 1;
-        internal_array[top] = d;
+        internalStack.Push(token);
     }
 
     public Token Pop()
     {
-        Token return_value = internal_array[top];
-        top -= 1;
-        return return_value;
+        return internalStack.Pop();
     }
 }

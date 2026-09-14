@@ -1,54 +1,75 @@
+using global::Calculator.Exceptions;
+using global::Calculator.Model;
+using global::Calculator.View;
+
 namespace Calculator.Controller;
 
-using global::Calculator.Model;
-using global::Calculator.Exceptions;
 public class CalculatorController
 {
-    // run method
-    // will hold the big loop that asks the user for input and passes it to the Model
-    public void Run(string[] args)
+    private string[] args;
+    private RpnCalculator calculator;
+    private ConsoleView view;
+
+    public CalculatorController(string[] args)
+    {
+        this.args = args;
+        calculator = new RpnCalculator();
+        view = new ConsoleView();
+    }
+    public void Run()
+    {
+        if (args.Length == 0)
+        {
+            RunConsoleMode();
+        }
+        else if (args.Length == 2)
+        {
+            RunFileMode();
+        }
+        else
+        {
+            view.DisplayError
+            ("Syntax: Calculator [source destination]");
+        }
+    }
+    private void RunConsoleMode()
     {
         while (true)
         {
-            Console.WriteLine("Enter an RPN expression <return> (empty string = exit): ");
-            string input = Console.ReadLine();
-            if (input == '')
+            string input = view.GetInput();
+            if (string.IsNullOrEmpty(input))
             {
-                Console.WriteLine("The user exited the application");
-                return;
+                view.DisplayExitMessage();
+                break;
             }
-            string[] parts = input.Split(' ');
-            MyStack myStack = new MyStack();
-
-            foreach (string part in parts)
+            try
             {
-                if (double.TryParse(part, out double number))
-                {
-                    Operand op = new Operand(number);
-                    myStack.Push(op);
-                }
-                else
-                {
-                    Operator op = null;
-                    if (part == "+") op = new SumOperator();
-                    else if (part == "-") op = new SubtractOperator();
-                    else if (part == "*") op = new MultiplyOperator();
-                    else if (part == "/") op = new DivideOperator();
-                    else if (part == "%") op = new ModulusOperator();
-                    else
-                    {
-                        throw new InvalidTokenException("InvalidTokenException", part);
-                    }
-                    myStack.Push(op);
-                }
+                double result = calculator.Calculate(input);
+                view.DisplayResult(result);
             }
-            Token calc_token = myStack.Pop();
-            double result = calc_token.Evaluate(myStack);
-            if (myStack.Count != -1)
+            catch (Exception exception)
             {
-                throw new InvalidOperationException("InvalidOperationException");
+                view.DisplayError(exception.Message);
             }
-            Console.WriteLine(result);
+        }
+    }
+    private void RunFileMode()
+    {
+        string source = args[0];
+        string destination = args[1];
+        string[] expressions = File.ReadAllLines(source);
+        using StreamWriter writer = new StreamWriter(destination);
+        foreach (string expression in expressions)
+        {
+            try
+            {
+                double result = calculator.Calculate(expression);
+                writer.WriteLine(result.ToString("F2"));
+            }
+            catch (Exception exception)
+            {
+                writer.WriteLine(exception.Message);
+            }
         }
     }
 }

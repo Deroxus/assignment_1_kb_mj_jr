@@ -3,7 +3,7 @@ namespace Calculator.Exceptions;
 public class DivideByZeroException : Exception
 {
     public string ErrorDetails { get; }
-    public DivideByZeroException(string message, string details) : base(message)
+    public DivideByZeroException(string details) : base($"DivideByZeroException: {details}")
     {
         ErrorDetails = details;
     }

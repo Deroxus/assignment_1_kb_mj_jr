@@ -8,7 +8,7 @@ public class DivideOperator : Operator
     {
         if (rightOperand == 0)
         {
-            throw new DivideByZeroException("DivideByZeroException", leftOperand.ToString() + "/" + rightOperand.ToString());
+            throw new DivideByZeroException(leftOperand.ToString("F2") + "/" + rightOperand.ToString("F2"));
         }
         return leftOperand / rightOperand;
     }

@@ -9,15 +9,15 @@ public abstract class Operator : Token
     {
         if (stack.Count < 2)
         {
-            throw new InvalidOperationException("InvalidOperationException");
+            throw new InvalidOperationException();
         }
 
         Token rightToken = stack.Pop();
         double right = rightToken.Evaluate(stack);
 
-        if (stack.Count < 2)
+        if (stack.Count < 1)
         {
-            throw new InvalidOperationException("InvalidOperationException");
+            throw new InvalidOperationException();
         }
 
         Token leftToken = stack.Pop();

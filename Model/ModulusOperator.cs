@@ -1,5 +1,4 @@
 using DivideByZeroException = Calculator.Exceptions.DivideByZeroException;
-// using global::Calculator.Exceptions;
 namespace Calculator.Model;
 
 public class ModulusOperator : Operator
@@ -8,7 +7,7 @@ public class ModulusOperator : Operator
     {
         if (rightOperand == 0)
         {
-            throw new DivideByZeroException("DivideByZeroException", leftOperand.ToString() + "/" + rightOperand.ToString());
+            throw new DivideByZeroException(leftOperand.ToString("F2") + "/" + rightOperand.ToString("F2"));
         }
         return leftOperand % rightOperand;
     }
