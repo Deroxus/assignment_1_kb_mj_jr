@@ -1,5 +1,5 @@
-// using "global::" prefix to provide information that it's the namespace, not the class name
-using global::Calculator.Exceptions;
+// using very specific namespace to avoid program confusing our own exception class with the built-in
+using InvalidOperationException = Calculator.Exceptions.InvalidOperationException;
 
 namespace Calculator.Model;
 

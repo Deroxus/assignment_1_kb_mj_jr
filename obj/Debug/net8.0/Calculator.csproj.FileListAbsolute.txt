@@ -16,3 +16,16 @@
 C:\Users\Kev\source\repos\assignment_1_kb_mj_jr\obj\Debug\net8.0\Calculator.dll
 C:\Users\Kev\source\repos\assignment_1_kb_mj_jr\obj\Debug\net8.0\refint\Calculator.dll
 C:\Users\Kev\source\repos\assignment_1_kb_mj_jr\obj\Debug\net8.0\Calculator.pdb
+C:\Users\Kev\source\repos\assignment_1_kb_mj_jr\obj\Debug\net8.0\Calculator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Kev\source\repos\assignment_1_kb_mj_jr\obj\Debug\net8.0\Calculator.AssemblyInfoInputs.cache
+C:\Users\Kev\source\repos\assignment_1_kb_mj_jr\obj\Debug\net8.0\Calculator.AssemblyInfo.cs
+C:\Users\Kev\source\repos\assignment_1_kb_mj_jr\obj\Debug\net8.0\Calculator.csproj.CoreCompileInputs.cache
+C:\Users\Kev\source\repos\assignment_1_kb_mj_jr\obj\Debug\net8.0\Calculator.sourcelink.json
+C:\Users\Kev\source\repos\assignment_1_kb_mj_jr\bin\Debug\net8.0\Calculator.exe
+C:\Users\Kev\source\repos\assignment_1_kb_mj_jr\bin\Debug\net8.0\Calculator.deps.json
+C:\Users\Kev\source\repos\assignment_1_kb_mj_jr\bin\Debug\net8.0\Calculator.runtimeconfig.json
+C:\Users\Kev\source\repos\assignment_1_kb_mj_jr\bin\Debug\net8.0\Calculator.dll
+C:\Users\Kev\source\repos\assignment_1_kb_mj_jr\bin\Debug\net8.0\Calculator.pdb
+C:\Users\Kev\source\repos\assignment_1_kb_mj_jr\obj\Debug\net8.0\Calculator.genruntimeconfig.cache
+C:\Users\Kev\source\repos\assignment_1_kb_mj_jr\obj\Debug\net8.0\ref\Calculator.dll
+C:\Users\Kev\source\repos\assignment_1_kb_mj_jr\obj\Debug\net8.0\Calculator.csproj.Up2Date

@@ -1,11 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "R9Ljtu3P4Oc=",
+  "dgSpecHash": "KXDqAHZCfw0=",
   "success": true,
-  "projectFilePath": "/home/shish/school/object_oriented_programming/assignment_1_kb_mj_jr/Calculator.csproj",
-  "expectedPackageFiles": [
-    "/home/shish/.nuget/packages/microsoft.aspnetcore.app.ref/8.0.30/microsoft.aspnetcore.app.ref.8.0.30.nupkg.sha512",
-    "/home/shish/.nuget/packages/microsoft.netcore.app.host.linux-x64/8.0.30/microsoft.netcore.app.host.linux-x64.8.0.30.nupkg.sha512"
-  ],
+  "projectFilePath": "C:\\Users\\Kev\\source\\repos\\assignment_1_kb_mj_jr\\Calculator.csproj",
+  "expectedPackageFiles": [],
   "logs": []
 }

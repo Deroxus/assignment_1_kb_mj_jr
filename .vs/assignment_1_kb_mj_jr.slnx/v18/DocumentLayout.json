@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\Kev\\source\\repos\\assignment_1_kb_mj_jr\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Kev\\source\\repos\\assignment_1_kb_mj_jr\\Calculator.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Calculator.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Kev\\source\\repos\\assignment_1_kb_mj_jr\\.vs\\launch.vs.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:.vs\\launch.vs.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Kev\\source\\repos\\assignment_1_kb_mj_jr\\Model\\Token.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Model\\Token.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -78,7 +86,7 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "DivideOperator.cs",
               "DocumentMoniker": "C:\\Users\\Kev\\source\\repos\\assignment_1_kb_mj_jr\\Model\\DivideOperator.cs",
               "RelativeDocumentMoniker": "Model\\DivideOperator.cs",
@@ -91,7 +99,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 15,
               "Title": "InvalidTokenException.cs",
               "DocumentMoniker": "C:\\Users\\Kev\\source\\repos\\assignment_1_kb_mj_jr\\Exceptions\\InvalidTokenException.cs",
               "RelativeDocumentMoniker": "Exceptions\\InvalidTokenException.cs",
@@ -104,7 +112,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 16,
               "Title": "InvalidOperationException.cs",
               "DocumentMoniker": "C:\\Users\\Kev\\source\\repos\\assignment_1_kb_mj_jr\\Exceptions\\InvalidOperationException.cs",
               "RelativeDocumentMoniker": "Exceptions\\InvalidOperationException.cs",
@@ -117,7 +125,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 17,
               "Title": "DivideByZeroException.cs",
               "DocumentMoniker": "C:\\Users\\Kev\\source\\repos\\assignment_1_kb_mj_jr\\Exceptions\\DivideByZeroException.cs",
               "RelativeDocumentMoniker": "Exceptions\\DivideByZeroException.cs",
@@ -130,7 +138,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "CalculatorController.cs",
               "DocumentMoniker": "C:\\Users\\Kev\\source\\repos\\assignment_1_kb_mj_jr\\Controller\\CalculatorController.cs",
               "RelativeDocumentMoniker": "Controller\\CalculatorController.cs",
@@ -145,11 +153,37 @@
         },
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Calculator.csproj",
+              "DocumentMoniker": "C:\\Users\\Kev\\source\\repos\\assignment_1_kb_mj_jr\\Calculator.csproj",
+              "RelativeDocumentMoniker": "Calculator.csproj",
+              "ToolTip": "C:\\Users\\Kev\\source\\repos\\assignment_1_kb_mj_jr\\Calculator.csproj",
+              "RelativeToolTip": "Calculator.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-09-14T11:27:48.966Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "launch.vs.json",
+              "DocumentMoniker": "C:\\Users\\Kev\\source\\repos\\assignment_1_kb_mj_jr\\.vs\\launch.vs.json",
+              "RelativeDocumentMoniker": ".vs\\launch.vs.json",
+              "ToolTip": "C:\\Users\\Kev\\source\\repos\\assignment_1_kb_mj_jr\\.vs\\launch.vs.json",
+              "RelativeToolTip": ".vs\\launch.vs.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-09-14T11:17:37.469Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Calculator.cs",
               "DocumentMoniker": "C:\\Users\\Kev\\source\\repos\\assignment_1_kb_mj_jr\\Calculator.cs",
               "RelativeDocumentMoniker": "Calculator.cs",
@@ -162,7 +196,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "ConsoleView.cs",
               "DocumentMoniker": "C:\\Users\\Kev\\source\\repos\\assignment_1_kb_mj_jr\\View\\ConsoleView.cs",
               "RelativeDocumentMoniker": "View\\ConsoleView.cs",
@@ -175,7 +209,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "SumOperator.cs",
               "DocumentMoniker": "C:\\Users\\Kev\\source\\repos\\assignment_1_kb_mj_jr\\Model\\SumOperator.cs",
               "RelativeDocumentMoniker": "Model\\SumOperator.cs",
@@ -188,7 +222,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "SubtractOperator.cs",
               "DocumentMoniker": "C:\\Users\\Kev\\source\\repos\\assignment_1_kb_mj_jr\\Model\\SubtractOperator.cs",
               "RelativeDocumentMoniker": "Model\\SubtractOperator.cs",
@@ -201,7 +235,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "Operator.cs",
               "DocumentMoniker": "C:\\Users\\Kev\\source\\repos\\assignment_1_kb_mj_jr\\Model\\Operator.cs",
               "RelativeDocumentMoniker": "Model\\Operator.cs",
@@ -214,7 +248,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Token.cs",
               "DocumentMoniker": "C:\\Users\\Kev\\source\\repos\\assignment_1_kb_mj_jr\\Model\\Token.cs",
               "RelativeDocumentMoniker": "Model\\Token.cs",
@@ -227,7 +261,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "RPNCalculator.cs",
               "DocumentMoniker": "C:\\Users\\Kev\\source\\repos\\assignment_1_kb_mj_jr\\Model\\RPNCalculator.cs",
               "RelativeDocumentMoniker": "Model\\RPNCalculator.cs",
@@ -240,7 +274,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "Operand.cs",
               "DocumentMoniker": "C:\\Users\\Kev\\source\\repos\\assignment_1_kb_mj_jr\\Model\\Operand.cs",
               "RelativeDocumentMoniker": "Model\\Operand.cs",
@@ -253,7 +287,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "MyStack.cs",
               "DocumentMoniker": "C:\\Users\\Kev\\source\\repos\\assignment_1_kb_mj_jr\\Model\\MyStack.cs",
               "RelativeDocumentMoniker": "Model\\MyStack.cs",
@@ -266,7 +300,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "MultiplyOperator.cs",
               "DocumentMoniker": "C:\\Users\\Kev\\source\\repos\\assignment_1_kb_mj_jr\\Model\\MultiplyOperator.cs",
               "RelativeDocumentMoniker": "Model\\MultiplyOperator.cs",
@@ -279,7 +313,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "ModulusOperator.cs",
               "DocumentMoniker": "C:\\Users\\Kev\\source\\repos\\assignment_1_kb_mj_jr\\Model\\ModulusOperator.cs",
               "RelativeDocumentMoniker": "Model\\ModulusOperator.cs",
